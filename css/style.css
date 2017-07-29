@@ -15,7 +15,7 @@
 	color: #333;
 	text-transform: uppercase;
 }
-#bs-example-navbar-collapse-1 li.active a,
+#bs-example-navbar-collapse-1 li:active a,
 #bs-example-navbar-collapse-1 li a:hover{
 	border-top: 2px solid #4F14FF;
 	color:#4F14FF;
