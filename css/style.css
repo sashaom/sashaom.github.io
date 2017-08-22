@@ -82,10 +82,7 @@ body {
 	background-color: #fff;
 	opacity: 0.4;
 }
-@-moz-document url-prefix() {
-.header{
-   top: -40px;
-}
+
 }
 
 
