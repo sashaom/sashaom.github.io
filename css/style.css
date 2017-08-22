@@ -4,7 +4,6 @@
 	padding: 0;
 }
 body {
-
 	font-family: 'Raleway', sans-serif;
 }
 .intro img {
@@ -87,7 +86,7 @@ body {
 
 
 .name, .menu {
-	padding:0 20px;
+	padding:20px 20px;
 }
 .menu {
 	width: 40%;
@@ -109,6 +108,7 @@ body {
 .menu_link {
 	color: #000;
 	text-decoration: none;
+	padding-left: 20px;
 }
 .intro img {
 	-webkit-border-radius: 50%;
