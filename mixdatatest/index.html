@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    </script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <container>
+      <row>
+        <div class="buttons-field col-lg-6"  style="margin-top:20px;">
+          <button type="button" class="btn btn-default" >Шаг вперед</button>
+          <button type="button" class="btn btn-default" onclick="undoEdit()";>Шаг назад</button>
+          <button type="button" class="btn btn-default" onclick="document.getElementById('words-field').value='';">Очистить поле</button>
+          <button type="button" class="copy btn btn-default" >Скопировать в буфер</button>
+
+
+          <button type="button" class="btn btn-default" onclick="allBig()">Все буквы большие</button>
+          <button type="button" class="btn btn-default" onclick="allsmall()">Все буквы маленькие</button>
+          <button type="button" class="second btn btn-default">Первые буквы заглавные</button>
+          <button type="button" class="btn btn-default" onclick="firstBig()">Первое слово с большой буквы</button>
+          <button type="button" class="plus btn btn-default" onclick="addPlus()">Добавить плюсы перед словами</button>
+          <button type="button" class="btn btn-default" onclick="deletePlus()">Удалить плюсы перед словами</button>
+          <button type="button" class="btn btn-default" onclick="addDots()">Добавить кавычки в начале и в конце строки</button>
+          <button type="button" class="btn btn-default" onclick="addFigur()">Добавить квадратные скобки  в начале и в конце строки</button>
+          <button type="button" class="btn btn-default" onclick="addStartDefis()">Добавить тире в самом начале</button>
+          <button type="button" class="btn btn-default" onclick="addDefisAndFigur()">Добавить квадратные скобки в начале и в конце строки и тире в самом начале</button>
+          <button type="button" class="btn btn-default" onclick="addDefisAndDots()">Добавить кавычки в начале и в конце строки и тире в самом начале</button>
+          <button type="button" class="btn btn-default" onclick="deleteSpace()">Удалить лишние пробелы</button>
+          <button type="button" class="btn btn-default" onclick="deleteTab()">Удалить табуляцию</button>
+          <button type="button" class="btn btn-default"  onclick="deleteSpeceAndDefisSymbols()">было: сок цена -вишня, стало: сок цена)</button>
+          <button type="button" class="btn btn-default" onclick="changeSpace()">Заменить пробелы на знак подчеркивания</button>
+          <button type="button" class="btn btn-default" onclick="deleteSpecialSymbols()" >Удалить спец символы. Спец символы ()`~!@#$%^&*_=+[]\{}|;':",/<>?</button>
+          <button type="button" class="btn btn-default" onclick="SpaceSpecialSymbols()">Заменить спец символы на пробелы</button>
+          <textarea class="form-control" rows="2" id="find" placeholder="найти"></textarea>
+          <textarea class="form-control" rows="2" id="edit" placeholder="заменить"></textarea>
+          <button type="button" class="btn btn-default">Заменить</button>
+
+          <button type="button" class="btn btn-default" onclick="sortAlphabet()">Сортировать А-Я, сортироваться должны строки</button>
+          <button type="button" class="btn btn-default" onclick="reveAlphabet()">Сортировать Я-А, сортироваться должны строки</button>
+          <button type="button" class="btn btn-default" onclick="deleteDuplicat()">Удалить дубликаты (имеются в виду дубликаты строк)</button>
+        </div>
+        <div class="text-field col-lg-6">
+          <textarea class="form-control" rows="10000" id="words-field" style="margin-top:20px;"></textarea>
+        </div>
+      </row>
+    </container>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+  </body>
+</html>
