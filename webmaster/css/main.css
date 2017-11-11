@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Roboto:100");
 body {
   margin: 0;
@@ -109,68 +108,35 @@ h2 {
     .skills .items input {
       margin-bottom: 15px; }
 
-.jsskills {
-  /*для Firefox */
-  /* Тоже самое для IE */ }
-  .jsskills h2 {
-    margin-top: 30px; }
-  .jsskills .slider {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
-    .jsskills .slider .step {
-      text-align: left; }
-  .jsskills .ui-state-default, .jsskills .ui-widget-content .ui-state-default {
-    background: url(/img/slide-point.png) no-repeat center;
-    border: none;
-    height: 24px;
-    width: 26px;
-    outline: none;
-    margin-top: 14px; }
-  .jsskills .ui-corner-all {
-    width: 100%;
-    height: 20px;
-    cursor: pointer;
-    background: url(/img/gradient.png) no-repeat center;
-    border: none; }
-  .jsskills input[type=range]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    background: url(/img/slide-point.png) no-repeat center;
-    height: 24px;
-    width: 26px;
-    cursor: pointer;
-    margin-top: 14px;
-    margin-left: -13px;
-    margin-right: -20px; }
-  .jsskills input[type=range]::-moz-range-thumb {
-    background: url(/img/slide-point.png) no-repeat center;
-    height: 24px;
-    width: 26px;
-    cursor: pointer;
-    margin-top: 14px; }
-  .jsskills input[type=range]::-ms-thumb {
-    background: url(/img/slide-point.png) no-repeat center;
-    height: 24px;
-    width: 26px;
-    cursor: pointer;
-    margin-top: 14px; }
-  .jsskills input[type=range]::-webkit-slider-runnable-track {
-    width: 100%;
-    height: 20px;
-    cursor: pointer;
-    background: url(/img/gradient.png) no-repeat center; }
-  .jsskills input[type=range]:focus::-webkit-slider-runnable-track {
-    background: url(/img/gradient.png) no-repeat center; }
-  .jsskills input[type=range]::-moz-range-track {
-    wwidth: 100%;
-    height: 20px;
-    cursor: pointer;
-    background: url(/img/gradient.png) no-repeat center; }
+.jsskills h2 {
+  margin-top: 30px; }
+
+.jsskills .slider {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .jsskills .slider .step {
+    text-align: left; }
+
+.jsskills .ui-state-default, .jsskills .ui-widget-content .ui-state-default {
+  background: url(../img/slide-point.png) no-repeat center;
+  border: none;
+  height: 24px;
+  width: 26px;
+  outline: none;
+  margin-top: 14px; }
+
+.jsskills .ui-corner-all {
+  width: 100%;
+  height: 20px;
+  cursor: pointer;
+  background: url(../img/gradient.png) no-repeat center;
+  border: none; }
 
 .about {
   margin-top: 79px; }
