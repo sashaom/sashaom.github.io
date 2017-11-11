@@ -131,6 +131,9 @@ h2 {
   outline: none;
   margin-top: 14px; }
 
+.jsskills .ui-widget.ui-widget-content {
+  border: none; }
+
 .jsskills .ui-corner-all {
   width: 100%;
   height: 20px;
