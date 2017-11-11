@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/main.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+	<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+</head>
+<body>
+	<div class="menu" id="menu">
+		<a href="#" class="menu-trigger">Menu</a>
+		<ul>
+			<li><a href="#person">Личная информация</a></li>
+			<li><a href="#skills-name">Опыт</a></li>
+			<li><a href="#js">JavaScript</a></li>
+			<li><a href="#about">О себе</a></li>
+		</ul>
+	</div>
+	<img class="bg" src="img/bg.png" alt="">
+	<div class="main" >
+		<h1>Анкета</h1>
+		<img src="img/icon.svg" alt="">
+		<h2 id="person">Личная информация</h2>
+		<ul>
+			<li><input type="text" placeholder="ФИО" value="Скаленко Александр Валериевич"></li>
+			<li>
+				<select id = "days"></select><select id = "months"></select><select id = "years"></select></li>
+				<li><input type="text" placeholder="Место проживания" value="Днепр"></li>
+				<li><input type="text" placeholder="Skype" value="sanderoffsky"></li>
+				<li><input type="text" placeholder="Email" value="sanderoffsky@gmail.com"></li>
+			</ul>
+			<img src="img/list-icon.svg" alt="" id="list-icon">
+
+
+		</div>
+		<h2 id="skills-name">Расскажите о своем опыте</h2>
+		<div class="skills" >
+
+			<div class="items">
+				<input type="checkbox" class="chackbox" checked="">
+				<label >БЭМ/OOCSS</label><br>
+				<input type="checkbox" class="chackbox" checked="">
+				<label >Stylus/LESS/SASS</label><br>
+				<input type="checkbox" class="chackbox" checked="">
+				<label >Работаю с SVG</label><br>
+			</div>
+			<div class="items">
+				<input type="checkbox" class="chackbox" checked="">
+				<label >Верстаю семантично</label><br>
+				<input type="checkbox" class="chackbox" checked="">
+				<label >ES2015/ES2016</label><br>
+				<input type="checkbox" class="chackbox" checked="">
+				<label >Gulp/GRUNT</label><br>
+			</div>
+			<div class="items">
+				<input type="checkbox" class="chackbox">
+				<label >Webpack</label><br>
+				<input type="checkbox" class="chackbox" checked="">
+				<label >jQuery</label><br>
+				<input type="checkbox" class="chackbox" checked="">
+				<label >Ипользую Git</label><br>
+
+			</div>
+		</div>
+
+		<div class="jsskills" id="js">
+			<img src="img/jsicon.svg" alt="">
+			<h2>Уровень владения JavaScript</h2>
+
+			<div class="slider">
+				<div class="step">Не владею</div>
+				<div class="step">Использую готовые<br>решения</div>
+				<div class="step">Использую готовые решения<br> и умею и переделывать</div>
+				<div class="step">Пишу сложный JS с нуля</div>
+			</div>	
+
+			<div id="slider-range-max"></div>
+	<!-- <div class="line">
+		<input type="range" min="" max="3" step="1">	
+	</div> -->
+</div>
+
+<div class="about" id="about">
+	<img src="img/last-icon.svg" alt="">
+	<h2>Расскажите о себе</h2>
+	<p>Напишите несколько предложений, чем привлекла наша вакансия
+	и что вы ожидаете от работы у нас.</p>
+	<textarea cols="30" rows="10" placeholder="Понравилась тем, что..."></textarea>
+	<input type="button" value="Готово" id="redy">
+</div>
+
+<script src="js/menu.js"></script>
+<script src="js/low_scroll.js"></script>
+
+</body>
+</html>

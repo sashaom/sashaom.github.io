@@ -1,0 +1,227 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Roboto:100");
+body {
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  color: #000;
+  text-align: center; }
+
+div {
+  max-width: 770px;
+  text-align: center;
+  margin: 0 auto; }
+
+li {
+  list-style: none; }
+
+.menu {
+  max-width: 500px; }
+  .menu .menu-trigger {
+    display: none; }
+  .menu ul {
+    padding-left: 0px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 25px;
+    margin-top: 25px; }
+    .menu ul li {
+      padding: 10px 23px; }
+    .menu ul a {
+      text-decoration: none;
+      color: #435993; }
+
+h1 {
+  -webkit-background-size: 100% 100%;
+          background-size: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 70px;
+  margin-top: -40px;
+  padding-bottom: 75px; }
+
+h2 {
+  font-size: 30px; }
+
+.bg {
+  width: 100%; }
+
+.main img {
+  padding-bottom: 20px; }
+
+.main h2 {
+  margin-top: 20px;
+  margin-bottom: 50px; }
+
+.main ul {
+  padding-left: 0px; }
+  .main ul input {
+    outline: none;
+    width: 520px;
+    height: 60px;
+    margin-bottom: 25px;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+  .main ul select {
+    font-family: 'Roboto thin', sans-serif;
+    font-size: 24px;
+    color: grey;
+    -moz-text-align-last: center;
+         text-align-last: center;
+    width: 106px;
+    height: 60px;
+    margin-bottom: 25px;
+    -webkit-border-radius: 5px;
+            border-radius: 5px; }
+    .main ul select option {
+      text-align: center;
+      padding: 0 auto; }
+  .main ul input[placeholder] {
+    text-align: center;
+    font-size: 24px; }
+
+.main #list-icon {
+  padding-top: 48px; }
+
+.skills {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 119px; }
+  .skills #skills-name {
+    margin-top: 10px;
+    margin-bottom: 56px; }
+  .skills .items {
+    text-align: left; }
+    .skills .items input {
+      margin-bottom: 15px; }
+
+.jsskills {
+  /*для Firefox */
+  /* Тоже самое для IE */ }
+  .jsskills h2 {
+    margin-top: 30px; }
+  .jsskills .slider {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .jsskills .slider .step {
+      text-align: left; }
+  .jsskills .ui-state-default, .jsskills .ui-widget-content .ui-state-default {
+    background: url(/img/slide-point.png) no-repeat center;
+    border: none;
+    height: 24px;
+    width: 26px;
+    outline: none;
+    margin-top: 14px; }
+  .jsskills .ui-corner-all {
+    width: 100%;
+    height: 20px;
+    cursor: pointer;
+    background: url(/img/gradient.png) no-repeat center;
+    border: none; }
+  .jsskills input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: url(/img/slide-point.png) no-repeat center;
+    height: 24px;
+    width: 26px;
+    cursor: pointer;
+    margin-top: 14px;
+    margin-left: -13px;
+    margin-right: -20px; }
+  .jsskills input[type=range]::-moz-range-thumb {
+    background: url(/img/slide-point.png) no-repeat center;
+    height: 24px;
+    width: 26px;
+    cursor: pointer;
+    margin-top: 14px; }
+  .jsskills input[type=range]::-ms-thumb {
+    background: url(/img/slide-point.png) no-repeat center;
+    height: 24px;
+    width: 26px;
+    cursor: pointer;
+    margin-top: 14px; }
+  .jsskills input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 20px;
+    cursor: pointer;
+    background: url(/img/gradient.png) no-repeat center; }
+  .jsskills input[type=range]:focus::-webkit-slider-runnable-track {
+    background: url(/img/gradient.png) no-repeat center; }
+  .jsskills input[type=range]::-moz-range-track {
+    wwidth: 100%;
+    height: 20px;
+    cursor: pointer;
+    background: url(/img/gradient.png) no-repeat center; }
+
+.about {
+  margin-top: 79px; }
+  .about h2 {
+    margin-top: 30px;
+    margin-bottom: 25px; }
+  .about p {
+    margin-bottom: 45px; }
+  .about textarea {
+    width: 520px;
+    height: 180px;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    padding: 15px;
+    border-color: grey;
+    font-family: 'Roboto thin', sans-serif; }
+  .about #redy {
+    display: block;
+    margin: 0 auto;
+    background: #435993;
+    color: #fff;
+    border: none;
+    padding: 14px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
+    width: 115px;
+    margin-top: 70px;
+    margin-bottom: 75px; }
+
+@media (min-width: 320px) and (max-width: 769px) {
+  input, textarea {
+    width: 300px !important; }
+  select {
+    width: 100px !important; }
+  textarea {
+    padding: 10px 0 0 10px !important; }
+  .skills input, label {
+    width: 10px !important;
+    text-align: left !important; }
+  .menu ul {
+    display: none; }
+  .menu-trigger {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    text-decoration: none !important;
+    width: 100%; }
+  .skills {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+  .step {
+    text-align: center !important; } }
