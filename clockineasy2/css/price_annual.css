@@ -1,0 +1,45 @@
+
+/*PRICE ANNUAL*/
+/**************************************************/
+.first-block {
+    background: none;
+    min-height: 755px;
+}
+.logo img {
+	width: 100%;
+}
+.menu a, .phone a{
+	color: #4b79eb;
+}
+.signin {
+	background: #fff !important;
+	border: 1px solid #4b79eb !important;
+	color: #4b79eb !important;
+}
+.tryfree {
+	background: #4b79eb !important;
+	border: 1px solid #4b79eb !important;
+	color: #fff !important;
+}
+.phone a {
+ 
+     background: url(../img/phone-blue.png) no-repeat left;
+}
+.menu-col a{
+    color: #4b79eb !important;
+}
+.menu a:hover, .menu ul li select:hover {
+    transition: all 0.2s ease !important;
+    color: #f9c924 !important;
+}
+.price-block {
+	min-height: 1715px;
+}
+
+.price-block {
+
+	background: url(../img/bg-price.png) no-repeat center bottom;
+}
+.price-block h2{
+	color: #4b79eb; 
+}
