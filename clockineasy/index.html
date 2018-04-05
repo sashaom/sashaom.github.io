@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CLOCKINEASY</title>
+	<link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+
+	<!-- <script src="js/jquery-3.1.1.min.js"></script>	 -->
+	
+	<script src="js/jquery-2.2.4.min.js"></script>		
+</head>
+<body>
+	<div class="container-fluid first-block">
+		<div class="header-box row">
+			<div class="wrapper header">
+				<div class="logo">
+					<a href="index.html">
+						<svg  id="logo1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 221.459 42.132">
+						<path class="cls-1" d="M1.119,26.644c0-5.176,3.742-8.848,8.953-8.848c3.462,0,5.561,1.504,6.68,3.042l-2.902,2.728
+							c-0.805-1.189-2.029-1.819-3.567-1.819c-2.693,0-4.582,1.958-4.582,4.896c0,2.938,1.889,4.932,4.582,4.932
+							c1.539,0,2.763-0.699,3.567-1.818l2.902,2.692c-1.119,1.574-3.217,3.078-6.68,3.078C4.861,35.527,1.119,31.854,1.119,26.644z"/>
+						<path class="cls-1" d="M19.658,35.107V11.78H24.1v23.327H19.658z"/>
+						<path class="cls-1" d="M27.424,26.644c0-4.791,3.357-8.848,8.918-8.848c5.596,0,8.953,4.057,8.953,8.848
+							c0,4.826-3.357,8.884-8.953,8.884C30.781,35.527,27.424,31.47,27.424,26.644z M40.679,26.644c0-2.623-1.574-4.896-4.337-4.896
+							c-2.763,0-4.302,2.273-4.302,4.896c0,2.658,1.539,4.932,4.302,4.932C39.105,31.575,40.679,29.302,40.679,26.644z"/>
+						<path class="cls-1" d="M47.502,26.644c0-5.176,3.742-8.848,8.953-8.848c3.462,0,5.561,1.504,6.68,3.042l-2.903,2.728
+							c-0.804-1.189-2.028-1.819-3.567-1.819c-2.693,0-4.582,1.958-4.582,4.896c0,2.938,1.889,4.932,4.582,4.932
+							c1.539,0,2.763-0.699,3.567-1.818l2.903,2.692c-1.119,1.574-3.217,3.078-6.68,3.078C51.245,35.527,47.502,31.854,47.502,26.644z"/>
+						<path class="cls-1" d="M76.988,35.107l-4.477-6.505l-2.028,2.168v4.337h-4.442V11.78h4.442v13.954l6.4-7.519h5.456
+							l-6.68,7.659l6.89,9.233H76.988z"/>
+						<path class="cls-2" d="M85.142,14.298c0-0.56,0.49-1.014,1.014-1.014c0.56,0,1.014,0.455,1.014,1.014
+							s-0.455,1.014-1.014,1.014C85.631,15.312,85.142,14.858,85.142,14.298z M85.631,35.107V18.215h1.049v16.892H85.631z"/>
+						<path class="cls-2" d="M104.099,35.107V23.321c0-3.532-1.749-4.581-4.372-4.581c-2.308,0-4.791,1.503-5.98,3.182v13.185
+								h-1.049V18.215h1.049v2.658c1.259-1.539,3.777-3.078,6.121-3.078c3.357,0,5.281,1.539,5.281,5.525v11.786H104.099z"/>
+						<path class="cls-2" d="M109.802,26.644c0-4.896,3.498-8.848,8.324-8.848c5.106,0,8.114,3.987,8.114,9.058v0.665h-13.675
+							c0.21,3.183,2.448,5.84,6.085,5.84c1.924,0,3.882-0.77,5.211-2.133l1.26,1.714c-1.679,1.679-3.952,2.588-6.715,2.588
+							C113.404,35.527,109.802,31.925,109.802,26.644z M118.091,19.964c-3.602,0-5.386,3.043-5.525,5.631h11.086
+							C123.617,23.077,121.938,19.964,118.091,19.964z"/>
+						<path class="cls-2" d="M141.037,35.107v-1.924c-1.398,1.539-3.322,2.344-5.596,2.344c-2.867,0-5.91-1.924-5.91-5.596
+							c0-3.777,3.043-5.561,5.91-5.561c2.309,0,4.232,0.734,5.596,2.308v-3.043c0-2.273-1.818-3.567-4.267-3.567
+							c-2.028,0-3.672,0.734-5.176,2.343l-1.224-1.818c1.818-1.889,3.986-2.798,6.749-2.798c3.567,0,6.54,1.608,6.54,5.7v11.611H141.037z
+							 M141.037,31.54v-3.183c-1.014-1.398-2.798-2.099-4.651-2.099c-2.448,0-4.161,1.539-4.161,3.708c0,2.133,1.713,3.672,4.161,3.672
+							C138.239,33.639,140.023,32.939,141.037,31.54z"/>
+						<path class="cls-2" d="M147.441,32.869l1.363-1.889c1.119,1.294,3.253,2.413,5.562,2.413c2.588,0,3.986-1.224,3.986-2.902
+							c0-4.092-10.457-1.574-10.457-7.834c0-2.623,2.273-4.861,6.296-4.861c2.867,0,4.896,1.084,6.26,2.448l-1.224,1.819
+							c-1.015-1.224-2.868-2.133-5.036-2.133c-2.309,0-3.742,1.154-3.742,2.658c0,3.707,10.457,1.259,10.457,7.834
+							c0,2.833-2.273,5.106-6.646,5.106C151.498,35.527,149.155,34.687,147.441,32.869z"/>
+						<path class="cls-2" d="M164.651,39.339c0.385,0.175,1.014,0.28,1.434,0.28c1.154,0,1.924-0.385,2.519-1.784l1.119-2.553
+							l-7.065-17.067h2.833l5.631,13.849l5.596-13.849h2.868l-8.464,20.32c-1.014,2.448-2.728,3.392-4.966,3.427
+							c-0.56,0-1.435-0.104-1.924-0.244L164.651,39.339z"/>
+						<path class="cls-5" d="M218.852,7.631c-0.072-0.112-0.145-0.223-0.219-0.333
+							c-0.298-0.44-0.616-0.865-0.953-1.274c-0.253-0.307-0.517-0.604-0.791-0.892C213.874,1.97,209.621,0,204.907,0
+							s-8.967,1.97-11.982,5.132c-0.274,0.288-0.538,0.585-0.791,0.892c-0.337,0.409-0.656,0.834-0.953,1.274
+							c-0.074,0.11-0.147,0.221-0.219,0.333c-1.651,2.575-2.608,5.637-2.608,8.922c0,0.144,0.002,0.288,0.006,0.431
+							c0.001,0.046,0.004,0.092,0.005,0.139c0.003,0.096,0.007,0.194,0.011,0.29c0.003,0.053,0.007,0.107,0.011,0.16
+							c0.005,0.089,0.01,0.178,0.017,0.266c0.004,0.054,0.01,0.108,0.014,0.162c0.008,0.087,0.015,0.175,0.024,0.262
+							c0.005,0.054,0.012,0.107,0.018,0.161c0.01,0.086,0.019,0.173,0.03,0.259c0.007,0.053,0.015,0.106,0.023,0.159
+							c0.011,0.086,0.023,0.173,0.036,0.259c0.009,0.051,0.018,0.103,0.026,0.155c0.014,0.086,0.028,0.173,0.044,0.259
+							c0.009,0.051,0.019,0.1,0.029,0.151c0.017,0.087,0.033,0.173,0.051,0.26c0.009,0.048,0.021,0.096,0.031,0.144
+							c0.019,0.088,0.038,0.176,0.059,0.264c0.01,0.046,0.022,0.091,0.033,0.137c0.022,0.089,0.043,0.178,0.066,0.266
+							c0.012,0.045,0.024,0.088,0.036,0.132c0.024,0.09,0.049,0.179,0.074,0.269c0.012,0.042,0.025,0.083,0.037,0.125
+							c0.027,0.091,0.054,0.181,0.083,0.271c0.012,0.04,0.025,0.078,0.038,0.118c0.029,0.092,0.06,0.184,0.091,0.275
+							c0.013,0.037,0.026,0.073,0.039,0.11c0.032,0.093,0.066,0.186,0.1,0.279c0.012,0.034,0.026,0.068,0.039,0.102
+							c0.035,0.094,0.072,0.188,0.109,0.281c0.013,0.032,0.026,0.064,0.039,0.096c0.039,0.095,0.078,0.19,0.119,0.285
+							c0.012,0.029,0.025,0.057,0.037,0.086c0.043,0.097,0.085,0.193,0.129,0.288c0.013,0.027,0.025,0.054,0.037,0.081
+							c0.046,0.097,0.092,0.194,0.139,0.29c0.012,0.024,0.024,0.048,0.036,0.073c0.049,0.098,0.098,0.195,0.149,0.293
+							c0.011,0.022,0.023,0.043,0.034,0.065c0.053,0.099,0.105,0.197,0.16,0.295c0.01,0.019,0.021,0.039,0.032,0.058
+							c0.055,0.1,0.112,0.199,0.17,0.298c0.01,0.017,0.02,0.034,0.03,0.051c0.06,0.1,0.12,0.2,0.181,0.298
+							c0.009,0.016,0.019,0.03,0.028,0.045c0.062,0.101,0.126,0.201,0.191,0.3c0.009,0.013,0.017,0.026,0.026,0.039
+							c0.066,0.1,0.133,0.2,0.202,0.3c0.007,0.01,0.015,0.022,0.022,0.032c0.07,0.101,0.141,0.201,0.214,0.301
+							c0.006,0.008,0.012,0.018,0.019,0.026c0.074,0.102,0.148,0.201,0.224,0.301c0.006,0.007,0.011,0.014,0.017,0.021
+							c0.077,0.101,0.155,0.2,0.235,0.299c0.004,0.006,0.009,0.011,0.013,0.017c0.081,0.1,0.163,0.199,0.246,0.297
+							c0.004,0.004,0.007,0.008,0.01,0.013c0.085,0.099,0.17,0.197,0.257,0.295c0.002,0.003,0.005,0.006,0.007,0.008
+							c0.087,0.099,0.176,0.196,0.267,0.293c0.001,0.001,0.003,0.003,0.004,0.005c0.091,0.097,0.183,0.193,0.276,0.288
+							c0.001,0.001,0.002,0.002,0.003,0.003c0.094,0.096,0.189,0.191,0.286,0.284h-0.053l11.565,11.478l9.922-9.861
+							c-0.001-0.003-0.001-0.007-0.002-0.01c0.258-0.174,0.429-0.469,0.429-0.805c0-0.277-0.117-0.527-0.304-0.703l-10.891-10.851
+							c-0.231-0.231-0.361-0.544-0.361-0.871V6.821c0-0.678,0.55-1.229,1.229-1.229c0.678,0,1.229,0.551,1.229,1.229v9.469l10.511,10.473
+							c0.002-0.001,0.003-0.002,0.005-0.003c0.17,0.146,0.389,0.234,0.63,0.234c0.359,0,0.671-0.196,0.839-0.485c0.002,0,0.005,0,0.007,0
+							c2.091-2.771,3.331-6.218,3.331-9.956C221.459,13.268,220.502,10.206,218.852,7.631"/>
+					</svg>
+					</a>
+					
+			<!-- 		<a href=""><img src="img/logo.svg" alt=""></a> -->
+				</div>
+
+				<div class="menu">
+					<div class="m_menu">
+						<div><a href="#">Home</a></div>
+
+						<!-- <div class="dropdown">
+							  <a class="down" data-toggle="dropdown" href="#">Product Tour <svg id="Isolation_Mode" data-name="Isolation Mode" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.66 9.45"><defs><style>.cls-1{fill:#68737c;}</style></defs><title>down</title><path class="ccls-1" d="M9.06,9.31l8.45-8.22a.5.5,0,0,0-.7-.72L8.73,8.24.86.15a.5.5,0,0,0-.71,0A.5.5,0,0,0,0,.49.49.49,0,0,0,.14.85L8.36,9.29a.5.5,0,0,0,.7,0ZM13.3,4.43"/></svg></a>
+							  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+	    						<li value=""><a href="">Product Tour</a></li>
+								<li value=""><a href="">Product Tour</a></li>
+								<li value=""><a href="">Product Tour</a></li>
+							  </ul>
+						</div>	 -->
+						<div><a href="price_annual.html">Pricing</a></div>
+						<div><a href="sign_in.html">Sign in</a></div>
+						<div><a href="tryfree.html">Try free</a></div>
+						<!-- <div><a href="">Blog</a></div>
+						<div class="dropdown">
+							  <a class="down" data-toggle="dropdown" href="#">More <svg id="Isolation_Mode" data-name="Isolation Mode" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.66 9.45"><defs><style>.cls-1{fill:#68737c;}</style></defs><title>down</title><path class="ccls-1" d="M9.06,9.31l8.45-8.22a.5.5,0,0,0-.7-.72L8.73,8.24.86.15a.5.5,0,0,0-.71,0A.5.5,0,0,0,0,.49.49.49,0,0,0,.14.85L8.36,9.29a.5.5,0,0,0,.7,0ZM13.3,4.43"/></svg></a>
+							  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+	    						<li value=""><a href="">Product Tour</a></li>
+								<li value=""><a href="">Product Tour</a></li>
+								<li value=""><a href="">Product Tour</a></li>
+							  </ul>
+						</div> -->
+					</div>
+				</div>
+
+				<div class="phone">
+
+					<a class="phonecol" href="tel:18883487307"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="26px" height="26px" viewBox="0 0 512 512" s>
+						<path d="M256,32c123.5,0,224,100.5,224,224S379.5,480,256,480S32,379.5,32,256S132.5,32,256,32 M256,0C114.625,0,0,114.625,0,256
+						s114.625,256,256,256s256-114.625,256-256S397.375,0,256,0L256,0z M398.719,341.594l-1.438-4.375
+						c-3.375-10.062-14.5-20.562-24.75-23.375L334.688,303.5c-10.25-2.781-24.875,0.969-32.405,8.5l-13.688,13.688
+						c-49.75-13.469-88.781-52.5-102.219-102.25l13.688-13.688c7.5-7.5,11.25-22.125,8.469-32.406L198.219,139.5
+						c-2.781-10.25-13.344-21.375-23.406-24.75l-4.313-1.438c-10.094-3.375-24.5,0.031-32,7.563l-20.5,20.5
+						c-3.656,3.625-6,14.031-6,14.063c-0.688,65.063,24.813,127.719,70.813,173.75c45.875,45.875,108.313,71.345,173.156,70.781
+						c0.344,0,11.063-2.281,14.719-5.938l20.5-20.5C398.688,366.062,402.062,351.656,398.719,341.594z"/>
+					</svg> 1-888-348-7307</a>
+				</div>
+
+				<div class="header-buttons">
+					<a href="sign_in.html" class="signin">Sign in</a>
+					<a href="tryfree.html" class="tryfree">Try free</a>
+				</div>
+				
+
+				<a href="#" class="m-menu-link">
+					<img class="sandvich" src="img/menu.png" alt="">
+					<img class="sandvich-scroll" src="img/menu-scroll.png" alt="">
+				</a>
+
+
+ 				<div class="m-menu">
+	       			<div class="close-menu">
+	       				<img src="img/cross.svg" alt="">
+	       			</div>
+			         <a href="">Home</a>
+
+						<!-- <div class="dropdown">
+							  <a class="down" data-toggle="dropdown" href="#">Product Tour <svg id="Isolation_Mode" data-name="Isolation Mode" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.66 9.45"><defs><style>.cls-1{fill:#68737c;}</style></defs><title>down</title><path class="ccls-1" d="M9.06,9.31l8.45-8.22a.5.5,0,0,0-.7-.72L8.73,8.24.86.15a.5.5,0,0,0-.71,0A.5.5,0,0,0,0,.49.49.49,0,0,0,.14.85L8.36,9.29a.5.5,0,0,0,.7,0ZM13.3,4.43"/></svg></a>
+							  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+	    						<li value=""><a href="">Product Tour</a></li>
+								<li value=""><a href="">Product Tour</a></li>
+								<li value=""><a href="">Product Tour</a></li>
+							  </ul>
+						</div> -->
+						<a href="price_annual.html">Pricing</a>
+						<a href="sign_in.html">Sign in</a>
+						<a href="tryfree.html">Try free</a>
+						<!-- <div><a href="">Blog</a></div>
+						<div class="dropdown">
+							   <a class="down" data-toggle="dropdown" href="#">More <svg id="Isolation_Mode" data-name="Isolation Mode" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.66 9.45"><defs><style>.cls-1{fill:#68737c;}</style></defs><title>down</title><path class="ccls-1" d="M9.06,9.31l8.45-8.22a.5.5,0,0,0-.7-.72L8.73,8.24.86.15a.5.5,0,0,0-.71,0A.5.5,0,0,0,0,.49.49.49,0,0,0,.14.85L8.36,9.29a.5.5,0,0,0,.7,0ZM13.3,4.43"/></svg></a>
+							  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+	    						<li value=""><a href="">Product Tour</a></li>
+								<li value=""><a href="">Product Tour</a></li>
+								<li value=""><a href="">Product Tour</a></li>
+							  </ul>
+						</div> -->
+			    </div>
+
+
+
+
+			</div>
+		</div>
+
+
+
+		<div class="row ">
+			<div class="wrapper first-block-second-row">
+				<div class="first-block-left-text wow animate bounceIn">
+					<h1>No more paper timesheets.&nbsp;</h1>
+					<p>Streamline your timesheets and payroll with one easy solution.&nbsp;</p>
+					<a href="tryfree.html" class="tryfree2">Try it free today!</a>
+				</div>
+				<div class="first-block-right-img wow animate bounceIn">
+					<img src="img/sheme.svg" alt="">
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="wrapper third-block">
+				<div class="third-block-title">
+					<h2>Simplify Time Tracking & Save</h2>
+				</div>
+				<div class="items">
+					<div class="left-items">
+						<div class="item wow animate bounceInRight" data-wow-offset="100">
+							<div class="item-img">
+								<img src="img/item1.svg" alt="">
+							</div>
+							<div class="item-text">
+								<h3>Simple Time Entry</h3>
+								<p>Employees clock in and out with a snap 
+									of a photo.  Manage travel time, change 
+									jobs, add notes & picture attachments 
+								instantly.</p>
+								<a href="">Learn more</a>
+							</div>
+						</div>
+						<div class="item wow animate bounceInRight" data-wow-offset="100">
+							<div class="item-img">
+								<img src="img/item3.svg" alt="">
+							</div>
+							<div class="item-text">
+								<h3>Cloud Based Reports</h3>
+								<p>Access all your cloud based reports from your 
+									web browser, mobile or tablet device anytime. 
+									Stay informed with the information you need 
+									about your team and your jobs. Make strategic
+								business decisions, save and grow!</p>
+								<a href="">Learn more</a>
+							</div>
+						</div>
+						<div class="item  wow animate bounceInRight" data-wow-offset="100">
+							<div class="item-img">
+								<img src="img/item5.svg" alt="">
+							</div>
+							<div class="item-text">
+								<h3>Streamline Payroll</h3>
+								<p>Process to the minute accurate time 
+									sheets with your payroll provider 
+								in minutes with our payroll export feature. </p>
+								<a href="">Learn more</a>
+							</div>
+						</div>
+					</div>
+					<div class="right-items">
+						<div class="item wow animate bounceInLeft" data-wow-offset="100">
+							<div class="item-img">
+								<img src="img/item2.svg" alt="">
+							</div>
+							<div class="item-text">
+								<h3>Face Recognition & GPS</h3>
+								<p>Manage your site remotely with your mobile app. 
+									Employee time entry is secure and detailed 
+								with instant face recognition and GPS location.  </p>
+								<a href="">Learn More</a>
+							</div>
+						</div>
+						<div class="item wow animate bounceInLeft" data-wow-offset="100">
+							<div class="item-img">
+								<img src="img/item4.svg" alt="">
+							</div>
+							<div class="item-text">
+								<h3>Compliance Friendly</h3>
+								<p>Avoid unwanted law suits and wage 
+									disputes. Our detailed time sheets give 
+									you a transparent look into your business. 
+									Changes are tracked in an audit log, 
+									and can be set to notify you and your 
+								employee. </p>
+								<a href="">Learn more</a>
+							</div>
+						</div>
+						<div class="item wow animate bounceInLeft" data-wow-offset="100">
+							<div class="item-img">
+								<img src="img/item6.svg" alt="">
+							</div>
+							<div class="item-text">
+								<h3>PTO & Overtime</h3>
+								<p>Accrue employee paid time off, manage 
+									requests, balances, and overtime. Simple 
+									and custom settings to configure your 
+								business polices.  </p>
+								<a href="">Learn more</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid four-block">
+		<div class="row">
+			<div class="wrapper four-block-items">
+				<div class="four-block-title">
+					<h2>Any time. All the time</h2>
+				</div>
+				<div class="four-block-text">
+					<div class="four-block-left">
+						<img src="img/pc.png" alt="">
+					</div>
+					<div class="four-block-right">
+						<p>Accrue employee paid time off, manage requests, 
+							balances, and overtime. Simple and custom settings 
+						to configure your business polices.  </p>
+						<div class="four-buttons">
+							<a href="" class="gplay"></a>
+							<a href="" class="appstore"></a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="cntainer-fluid five-block">
+		<div class="row">
+			<div class="wrapper ">
+				<h2>ClockInEasy Pays</h2>
+				<p class="five-pretitle">Money saved is money earned. Check out how much
+				you can start saving with ClockInEasy!</p>
+				<div class="calculate-block wow animate zoomIn" data-wow-offset="100">
+					<div class="left-side">
+						<div class="calculate-block-items">
+							<div class="calculate-block-item">
+								<p>Total Employees</p>
+								<input id="employees" tabindex="1" type="number" value="20">
+							</div>
+							<div class="calculate-block-item">
+								<p>Average Hourly Rate</p>
+								<label>
+									<span class="place">$</span>
+									<input id="ahr" tabindex="2" type="number" placeholder="13" value="13">
+								</label>
+							</div>
+							<div class="calculate-block-item">
+								<p>Weekly Hours</p>
+								<label>
+									<input id="hours" tabindex="3" type="number" placeholder="40" value="40">
+									<span class="place">h</span>
+								</label>
+							</div>
+						</div>
+						<div class="payperiod">
+							<span>Pay period</span>
+							<a tabindex="4" href="" class="pperiod active" data-period="weekly">Weekly</a>
+							<a  tabindex="5" href="" class="pperiod" data-period="bi-weekly">Bi-Weekly</a>
+						</div>
+						<div class="calc">
+							<!-- <a tabindex="6" href="" class="calculate">Calculate</a> -->
+						</div>
+					</div>
+
+
+					<div class="right-side">
+						<p>Annual saving</p>
+						<p class="result">
+							<span>$ </span>
+							<span id="result">11897.60</span>
+						</p>
+						<p class="price-title">Monthly cost of ClockInEasy</p>
+						<p class="price">
+							<span>$ </span>
+							<span id="price">80.00</span>
+						</p>
+						<a href="">Learn more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid price-block">
+		<div class="row">
+			<div class="wrapper">
+				<h2>Plan Pricing</h2>
+				<p class="price-block-title price-annual">Price includes <span>20%</span> Annual Savings</p>
+				<p class="price-block-title price-monthly">You could be saving <span>20%</span> with an annual payment plan
+</p>
+				<a href="" class="annual pperiod active">Annual payment</a>
+				<a href="" class="montly pperiod">Monthly payment</a>
+				<div class="price-plan-items">
+					<div class="price-plan-item grey">
+						<h3>Forever free</h3>
+						<p>1-2 Users</p>
+						<p class="price">$0</p>
+						<p>Free</p>
+						<a href="">Sign up now</a>
+					</div>
+					<div class="price-plan-item gold">
+						<h3>Professional</h3>
+						<p class="users-gold">3-99 Users</p>
+						<p class="price price-annual">$4</p>
+						<p class="price price-monthly">$5</p>
+						<p>per user/ month</p>
+						<p class="price-plan-item-blue">Only pay for active users!</p>
+						<a href="">Try it FREE now</a>
+					</div>
+					<div class="price-plan-item grey">
+						<h3>Enterprise</h3>
+						<p>100+ Users</p>
+						<p class="price">Call Us!</p>
+						<p>1-888-348-7307</p>
+						<a href="tel:18883487307">Contact Us</a>
+					</div>
+				</div>
+				<p class="price-block-title">No credit card required. Try it risk free </p>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="gellery">
+		<h2>What people are saying</h2>
+		<div class="container">
+			<div class="carousel">
+
+				<div class="gellery-item">
+					<h6>" Access all your cloud based reports from your web 
+						browser, mobile or tablet device anytime. 
+						Stay informed with the information you need about
+						your team and your jobs. Make strategic business
+					decisions, save and grow!”</h6>
+					<img src="img/ava.png" alt="">
+					<p class="name">James Black</p>
+					<p class="position">Manager</p>
+				</div>
+
+				<div class="gellery-item">
+					<h6>" Access all your cloud based reports from your web 
+						browser, mobile or tablet device anytime. 
+						Stay informed with the information you need about
+						your team and your jobs. Make strategic business
+					decisions, save and grow!”</h6>
+					<img src="img/ava.png" alt="">
+					<p class="name">James Black</p>
+					<p class="position">Manager</p>
+				</div>	
+
+				<div class="gellery-item">
+					<h6>" Access all your cloud based reports from your web 
+						browser, mobile or tablet device anytime. 
+						Stay informed with the information you need about
+						your team and your jobs. Make strategic business
+					decisions, save and grow!”</h6>
+					<img src="img/ava.png" alt="">
+					<p class="name">James Black</p>
+					<p class="position">Manager</p>
+				</div>	
+
+				<div class="gellery-item">
+					<h6>" Access all your cloud based reports from your web 
+						browser, mobile or tablet device anytime. 
+						Stay informed with the information you need about
+						your team and your jobs. Make strategic business
+					decisions, save and grow!”</h6>
+					<img src="img/ava.png" alt="">
+					<p class="name">James Black</p>
+					<p class="position">Manager</p>
+				</div>	
+			</div>
+		</div>
+		<p class="seemore"><a href="" >See more</a></p>
+	</div>
+
+
+
+	<div class="container-fluid subscribe-block">
+		<div class="row">
+			<div class="wrapper">
+				<h2>Subscribe for latest updates</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, dolores.</p>
+				<input type="text" class="mail" placeholder="Your e-mail">
+				<input type="submit" class="sub"  value="Free trial">
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid footer">
+		<div class="row">
+			<div class="wrapper header">
+				<div class="logo">
+					<a href=""><img src="img/logo.png" alt=""></a>
+				</div>
+
+
+				<div class="menu">
+					<div class="m_menu">
+						<div><a href="">Home</a></div>
+
+						<!-- <div class="dropdown">
+							  <a class="down" data-toggle="dropdown" href="#">Product Tour <svg id="Isolation_Mode" data-name="Isolation Mode" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.66 9.45"><defs><style>.cls-1{fill:#68737c;}</style></defs><title>down</title><path class="ccls-1" d="M9.06,9.31l8.45-8.22a.5.5,0,0,0-.7-.72L8.73,8.24.86.15a.5.5,0,0,0-.71,0A.5.5,0,0,0,0,.49.49.49,0,0,0,.14.85L8.36,9.29a.5.5,0,0,0,.7,0ZM13.3,4.43"/></svg></a>
+							  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+	    						<li value=""><a href="">Product Tour</a></li>
+								<li value=""><a href="">Product Tour</a></li>
+								<li value=""><a href="">Product Tour</a></li>
+							  </ul>
+						</div> -->
+						<div><a href="price_annual.html">Pricing</a></div>
+						<div><a href="sign_in.html">Sign in</a></div>
+						<div><a href="tryfree.html">Try free</a></div>
+						<!-- <div><a href="">Blog</a></div>
+						<div class="dropdown">
+							 <a class="down" data-toggle="dropdown" href="#">More <svg id="Isolation_Mode" data-name="Isolation Mode" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.66 9.45"><defs><style>.cls-1{fill:#68737c;}</style></defs><title>down</title><path class="ccls-1" d="M9.06,9.31l8.45-8.22a.5.5,0,0,0-.7-.72L8.73,8.24.86.15a.5.5,0,0,0-.71,0A.5.5,0,0,0,0,.49.49.49,0,0,0,.14.85L8.36,9.29a.5.5,0,0,0,.7,0ZM13.3,4.43"/></svg></a>
+
+							  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+	    						<li value=""><a href="">Product Tour</a></li>
+								<li value=""><a href="">Product Tour</a></li>
+								<li value=""><a href="">Product Tour</a></li>
+							  </ul>
+						</div> -->
+					</div>
+				</div>
+
+				<div class="phone">
+					<a class="phonecol" href="tel:18883487307"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="26px" height="26px" viewBox="0 0 512 512" s>
+						<path d="M256,32c123.5,0,224,100.5,224,224S379.5,480,256,480S32,379.5,32,256S132.5,32,256,32 M256,0C114.625,0,0,114.625,0,256
+						s114.625,256,256,256s256-114.625,256-256S397.375,0,256,0L256,0z M398.719,341.594l-1.438-4.375
+						c-3.375-10.062-14.5-20.562-24.75-23.375L334.688,303.5c-10.25-2.781-24.875,0.969-32.405,8.5l-13.688,13.688
+						c-49.75-13.469-88.781-52.5-102.219-102.25l13.688-13.688c7.5-7.5,11.25-22.125,8.469-32.406L198.219,139.5
+						c-2.781-10.25-13.344-21.375-23.406-24.75l-4.313-1.438c-10.094-3.375-24.5,0.031-32,7.563l-20.5,20.5
+						c-3.656,3.625-6,14.031-6,14.063c-0.688,65.063,24.813,127.719,70.813,173.75c45.875,45.875,108.313,71.345,173.156,70.781
+						c0.344,0,11.063-2.281,14.719-5.938l20.5-20.5C398.688,366.062,402.062,351.656,398.719,341.594z"/>
+					</svg>
+ 1-888-348-7307</a>
+				</div>
+
+
+				<div class="header-buttons">
+					<a href="tryfree.html" class="tryfree">Try free</a>
+				</div>
+
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="footer-items">
+				<div class="footer-item">
+					<p>
+						A software solution designed 
+						to save your company its most 
+						valuable resource: TIME!
+					</p>
+				</div>
+				<div class="footer-item">
+					<h4>Adress</h4>
+					<p>25 Maiden Lane, 11th Floor 
+					New York, NY 10038.</p>
+				</div>
+				<div class="footer-item">
+					<h4>Contact us</h4>
+					<p><a href="tel:18883487307">Phone: 1-888-348-7307</a></p>
+					<p><a href="mailto:clockineasy@gmail.com">E-mail: clockineasy@gmail.com</a></p>
+				</div>
+				<div class="footer-item">
+					<h4>Follow us</h4>
+					<a href="https://www.facebook.com/profile.php?id=100009777314794">
+						<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.31 26.31"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>facebok</title><path class="cls-1" d="M26.31,13.15A13.15,13.15,0,1,0,13.15,26.31,13.16,13.16,0,0,0,26.31,13.15Zm-25.11,0a12,12,0,1,1,12,12,12,12,0,0,1-12-12Zm0,0"/><path class="cls-1" d="M13.66,20.74V13.15h2.5l.4-2.52h-2.9V9.38c0-.66.22-1.28,1.16-1.28H16.7V5.58H14c-2.25,0-2.86,1.48-2.86,3.53v1.52H9.62v2.52h1.54v7.59Zm0,0"/></svg>
+
+						<!-- <img src="img/facebook.svg" alt=""> -->
+
+
+					</a>
+					<a href="">
+
+						<!-- <img src="img/twitter.svg" alt=""> -->
+						<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.31 26.31"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>twitter</title><path class="cls-1" d="M18.79,10.54c0-.13,0-.26,0-.4a5.88,5.88,0,0,0,1.45-1.56A5.55,5.55,0,0,1,18.56,9a3,3,0,0,0,1.28-1.66A5.55,5.55,0,0,1,18,8.08a2.88,2.88,0,0,0-2.12-1,2.94,2.94,0,0,0-2.91,3,3.11,3.11,0,0,0,.07.7,8.18,8.18,0,0,1-6-3.31A3.24,3.24,0,0,0,8,11.65a2.79,2.79,0,0,1-1.32-.4v0A3.09,3.09,0,0,0,9,14.35a2.63,2.63,0,0,1-1.31,0,3,3,0,0,0,2.71,2.17,5.55,5.55,0,0,1-4.3,1.27,7.8,7.8,0,0,0,4.46,1.4c5.34,0,8.27-4.65,8.27-8.69Zm0,0"/><path class="cls-1" d="M26.31,13.15A13.15,13.15,0,1,0,13.15,26.31,13.16,13.16,0,0,0,26.31,13.15Zm-25.11,0a12,12,0,1,1,12,12,12,12,0,0,1-12-12Zm0,0"/></svg>
+
+					</a>
+					<a href="">
+						<!-- <img src="img/linkedin.svg" alt=""> -->
+						<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 26.3 26.3" style="enable-background:new 0 0 26.3 26.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;}
+</style>
+<g>
+	<g>
+		<path class="sst0" d="M26.3,13.2C26.3,5.9,20.4,0,13.2,0C5.9,0,0,5.9,0,13.2c0,7.3,5.9,13.2,13.2,13.2
+			C20.4,26.3,26.3,20.4,26.3,13.2L26.3,13.2z M1.2,13.2c0-6.6,5.4-12,12-12s12,5.4,12,12s-5.4,12-12,12S1.2,19.8,1.2,13.2L1.2,13.2z
+			 M1.2,13.2"/>
+	</g>
+	<g>
+		<path d="M8.9,6C8.1,6,7.5,6.6,7.5,7.4c0,0.8,0.7,1.5,1.5,1.5c0.8,0,1.5-0.7,1.5-1.5C10.4,6.6,9.7,6,8.9,6L8.9,6z M8.9,6"/>
+		<rect x="7.7" y="10" width="2.5" height="8.1"/>
+		<path d="M16.5,9.8c-1.2,0-2,0.7-2.4,1.3h0V10h-2.4V18h2.5v-4c0-1.1,0.2-2.1,1.5-2.1c1.3,0,1.3,1.2,1.3,2.1V18h2.5v-4.4
+			C19.5,11.4,19.1,9.8,16.5,9.8L16.5,9.8z M16.5,9.8"/>
+	</g>
+</g>
+</svg>
+
+					</a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="container-fluid copy">
+		<div class="row">
+			<div class="wrapper">
+				<p>© Copyright 2018. Clokineasy</p>
+			</div>
+		</div>
+	</div>
+
+	
+<!-- 	<script src="js/validate.min.js"></script>
+	<script src="js/form.js"></script> -->
+
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/dropdown.js"></script>	
+	<script src="js/menu.js"></script>
+	<script src="js/scroll.js"></script>
+	<script src="js/calc.js"></script>
+
+
+ <script src="js/wow.min.js"></script>
+  <script>
+ wow = new WOW(
+     {
+         mobile: false,       // default
+        }
+       )
+                   wow.init();
+
+  </script>
+
+	<script>
+		$(document).ready(function() {
+			$('.gellery .container .carousel').owlCarousel({
+				responsive : {
+					0 : {
+						items: 1
+					},
+					768 : {
+						items: 1
+					},
+					991: {
+						items: 2
+					},
+					1200: {
+						items:2
+					}
+				},
+				margin: 10,
+				nav: true,
+				navText: [
+				'<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 151 274.6"><path d="M4.008,147.317l123.308,123.268c5.41,5.398,14.177,5.398,19.604,0c5.408-5.393,5.408-14.16,0-19.559L33.391,137.536L146.903,24.053c5.41-5.398,5.41-14.166,0-19.576c-5.41-5.398-14.189-5.398-19.598,0L3.992,127.747C-1.335,133.084-1.335,141.989,4.008,147.317L4.008,147.317z M4.008,147.317"/></svg>',
+				'<svg version="1.1"  xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 151 274.6"><path style="clip-path:url(#SVGID_2_);" d="M146.968,127.317L23.66,4.049c-5.41-5.398-14.177-5.398-19.604,0c-5.408,5.393-5.408,14.16,0,19.559l113.528,113.49L4.073,250.58c-5.41,5.398-5.41,14.166,0,19.576c5.41,5.398,14.189,5.398,19.598,0l123.312-123.269C152.311,141.549,152.311,132.644,146.968,127.317L146.968,127.317z M146.968,127.317"/></svg>'
+				],
+				dotsEach: true,
+				autoplay: true
+			});
+
+			// $('.img-item, .gellery-item').magnificPopup({
+			// 	type:'image',
+			// 	mainClass: 'mfp-with-zoom',
+			// 	gallery: {
+			// 		enabled: true,
+			// 	},
+			// });
+		});
+	</script>
+
+
+	<script>
+		$(".annual").click(function(e) {
+    e.preventDefault();
+    $('.price-block').addClass('price-annual-show');
+});
+$(".montly").click(function(e) {
+    e.preventDefault();
+    $('.price-block').removeClass('price-annual-show');
+});
+
+
+</script>
+
+
+</body>	
+</html>
