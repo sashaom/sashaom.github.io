@@ -1804,7 +1804,7 @@ a:focus {
 }
 
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .glide .header, .glide .menu ul, .glide .phone {
         min-height: 34px;
     }
