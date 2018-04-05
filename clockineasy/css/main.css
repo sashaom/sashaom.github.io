@@ -1562,14 +1562,14 @@ a:focus {
     justify-content: space-around;
 }
 .left-side {
-    width: 90%;
+    width: 90% !important;
 }
 .right-side {
-    width: 53%;
+    width: 53% !important;
     text-align: center;
 }
 .right-side .result {
-    width: 90%;
+    width: 90% !important;
 }
 .right-side .result {
     height: 38px;
