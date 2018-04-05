@@ -1517,7 +1517,7 @@ a:focus {
   .left-side .calculate {
     font-size: 1.5rem;}
     .right-side a {
-      font-size: 1.5rem;
+      font-size: 1.5rem !important;
   }
   .four-block-right {
     left: 0%;
