@@ -1092,7 +1092,7 @@ a:focus {
    border-radius: 25px;
    background: #5280e0;
    color: #fff;
-   width: 55  %;
+   width: 55%;
    margin: 0 auto;
    border: none;
 }
@@ -1425,6 +1425,7 @@ a:focus {
 
 
 @media (max-width: 1024px) {
+
   .third-block .item-text {
 
     height: 400px;
@@ -2428,7 +2429,6 @@ color: #fff;
     padding: 20px;
 }
   .signpage .pass-block {
-        
     margin: 0 auto;
     }
     .personal, .company {
