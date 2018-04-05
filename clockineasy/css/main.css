@@ -1845,6 +1845,9 @@ a:focus {
     .price-block a {
         padding: 10px;
     }
+    .third-block a {
+    width: 82%;
+}
 
 }
 
