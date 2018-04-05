@@ -1418,16 +1418,13 @@ a:focus {
 
 @media (min-width: 1441px) {
     .subscribe-block .sub {
-
         left: -6%;
     }
 }
 
 
 @media (max-width: 1024px) {
-
   .third-block .item-text {
-
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -1440,8 +1437,7 @@ a:focus {
     margin-top: 112px;
 }
 .right-side .result {
-
-    width: 100%;
+    width: 100% !important;
 }
 .third-block p {
   min-height: auto;
@@ -1460,20 +1456,15 @@ a:focus {
     width: 60% !important;
 }
 .price-plan-item a {
-
     width: 76%;
 }
 .subscribe-block .sub {
     left: -12%;
 }
 .subscribe-block .mail {
-
     width: 60%;
 }
 }
-/*.third-block p {
-    min-height: 300px;
-    }*/
 
 
 
