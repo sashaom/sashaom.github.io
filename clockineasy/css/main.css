@@ -1454,10 +1454,10 @@ a:focus {
   padding-top: 70px;
 }
 .right-side {
-    width: 25%;
+    width: 25% !important;
 }
 .left-side {
-    width: 60%;
+    width: 60% !important;
 }
 .price-plan-item a {
 
