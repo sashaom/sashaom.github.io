@@ -1572,25 +1572,25 @@ a:focus {
     width: 90% !important;
 }
 .right-side .result {
-    height: 38px;
-    border-radius: 25px;
-    margin: 0 auto; 
-    padding-left: 0px;  
+    height: 38px !important;
+    border-radius: 25px !important;
+    margin: 0 auto !important; 
+    padding-left: 0px !important;  
 }
 
 .left-side {
-    min-height: 309px;
+    min-height: 309px !important;
 }
 .calc {
-    margin-top: 45px;
+    margin-top: 45px !important;
 }
 .right-side {
 
-    min-height: 310px;
+    min-height: 310px !important;
 }
 .right-side {
-    margin: 20px 10px 30px;
-    padding: 20px 10px;
+    margin: 20px 10px 30px !important;
+    padding: 20px 10px !important;
 }
 
 }
