@@ -1784,6 +1784,9 @@ a:focus {
   .left-side {
     min-height: 389px;
 }
+.calculate-block .right-side {
+    text-align: center;
+    }
 /*.gold {
     background-position-y: 3303%;
     }*/
