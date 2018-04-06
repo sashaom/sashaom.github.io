@@ -375,7 +375,7 @@ a:focus {
     
 }
 .tryfree2 {
-    padding: 20px 60px !important;
+    padding: 20px 60px;
 }
 /*--------------------------------*/
 .first-block-second-row  {
@@ -1837,7 +1837,7 @@ a:focus {
     }
     .left-side a {
         width: 80%;
-        margin: 10px auto; 
+        margin: 10px auto !important ; 
     }
     .left-side {
         min-height: 540px;
