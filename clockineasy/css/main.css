@@ -1677,13 +1677,12 @@ a:focus {
 }
 
 .price-plan-items {
-
    flex-wrap: wrap; 
    justify-content: space-around; 
 }
 .price-plan-item {
-    padding: 10px;
-    min-height: 160px;
+    padding: 10px !important;
+    min-height: 160px !important;
 }
 .price-block h2 {
     margin: 5px;
