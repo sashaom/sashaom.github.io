@@ -1843,7 +1843,7 @@ a:focus {
         min-height: 540px;
     }
     .right-side {
-        width: 90%;
+       width: 90% !important;
     }
     .price-block a {
         padding: 10px;
